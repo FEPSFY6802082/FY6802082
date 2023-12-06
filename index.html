@@ -37,6 +37,48 @@
         // Call showSlide() to display the first slide
         showSlide();
       </script>
+
+<div id="slide-container">
+  <img id ="slide" src ="slide 1.png" alt="Slide 1" style="width:100%; max-width:800px;">
+
+  <div> Previous and Next buttons container
+<button class="button" onclick="prevSlide()">Previous</button>
+</div>
+
+<div> Slide numbers container
+<button class="button" onclick="showSlideNumber(1)">1</button>
+<button class="button" onclick="showSlideNumber(2)">2</button>
+<button class="button" onclick="showSlideNumber(3)">3</button>
+<button class="button" onclick="showSlideNumber(4)">4</button>
+</div>
+
+  <style>
+/* Style to center the image */
+.position-relative {
+  text-align: center;
+}
+
+/* Style for the buttons */
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+}
+
+/* Add some padding between the image and buttons */
+.background {
+  padding: 10px 20px;
+  border: none;
+  color: #ACCF90;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add some margin between the buttons and the image */
+.slide-number-absolute
+</style>
       
     <!style for tables>
       <style>
